@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun Apr 14 11:28:40 2019
+# Process ID: 9804
+# Current directory: C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_2
+# Command line: vivado.exe -log ffld1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ffld1.tcl -notrace
+# Log file: C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_2/ffld1.vdi
+# Journal file: C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source ffld1.tcl -notrace

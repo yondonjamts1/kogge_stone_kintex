@@ -1,0 +1,377 @@
+
+*** Running vivado
+    with args -log ffld1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ffld1.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+  **** IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source ffld1.tcl -notrace
+Command: synth_design -top ffld1 -part xc7k325tffg900-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10644 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 355.910 ; gain = 145.367
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ffld1' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:45]
+INFO: [Synth 8-3491] module 'KS' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:80' bound to instance 'adder' of component 'KS' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'KS' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:91]
+INFO: [Synth 8-3491] module 'whitebox2' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:33' bound to instance 'wbox1' of component 'whitebox2' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'whitebox2' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'whitebox2' (1#1) [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:45]
+INFO: [Synth 8-3491] module 'whitebox' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:11' bound to instance 'wbox2' of component 'whitebox' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:133]
+INFO: [Synth 8-638] synthesizing module 'whitebox' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'whitebox' (2#1) [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:22]
+INFO: [Synth 8-3491] module 'whitebox' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:11' bound to instance 'wbox3' of component 'whitebox' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:134]
+INFO: [Synth 8-3491] module 'whitebox' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:11' bound to instance 'wbox4' of component 'whitebox' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:135]
+INFO: [Synth 8-3491] module 'whitebox' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:11' bound to instance 'wbox5' of component 'whitebox' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:136]
+INFO: [Synth 8-3491] module 'whitebox' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:11' bound to instance 'wbox6' of component 'whitebox' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:137]
+INFO: [Synth 8-3491] module 'whitebox' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:11' bound to instance 'wbox7' of component 'whitebox' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:138]
+INFO: [Synth 8-3491] module 'whitebox' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:11' bound to instance 'wbox8' of component 'whitebox' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:139]
+INFO: [Synth 8-3491] module 'whitebox' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:11' bound to instance 'wbox9' of component 'whitebox' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:140]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle10' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'blackcircle' (3#1) [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:68]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle11' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:143]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle12' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:144]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle13' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:145]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle14' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:146]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle15' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:147]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle16' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:148]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle17' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:149]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle18' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:151]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle19' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:152]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle20' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:153]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle21' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:154]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle22' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:155]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle23' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:156]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle24' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:157]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle25' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:159]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle26' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:160]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle27' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:161]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle28' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:162]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle29' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:163]
+INFO: [Synth 8-3491] module 'blackcircle' declared at 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:56' bound to instance 'bcircle30' of component 'blackcircle' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:165]
+INFO: [Synth 8-256] done synthesizing module 'KS' (4#1) [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/new/adder.vhd:91]
+WARNING: [Synth 8-614] signal 'mode' is read in the process but is not in the sensitivity list [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:87]
+WARNING: [Synth 8-614] signal 'num_a' is read in the process but is not in the sensitivity list [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:87]
+WARNING: [Synth 8-614] signal 'num_b' is read in the process but is not in the sensitivity list [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:87]
+WARNING: [Synth 8-614] signal 'pn' is read in the process but is not in the sensitivity list [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:87]
+WARNING: [Synth 8-614] signal 'temp_result2' is read in the process but is not in the sensitivity list [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:87]
+WARNING: [Synth 8-614] signal 'result' is read in the process but is not in the sensitivity list [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:87]
+WARNING: [Synth 8-614] signal 'temp_result' is read in the process but is not in the sensitivity list [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'ffld1' (5#1) [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:45]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 391.313 ; gain = 180.770
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 391.313 ; gain = 180.770
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk_n'. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk_p'. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rdv'. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rst1'. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rx'. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tx'. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 728.863 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'ffld1'
+INFO: [Synth 8-5544] ROM "rs" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'rs_reg' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:128]
+WARNING: [Synth 8-327] inferring latch for variable 'state_next_reg' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:84]
+WARNING: [Synth 8-327] inferring latch for variable 'state_next_reg' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:84]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                             0000
+                     sub |                              001 |                             0010
+                   sub_2 |                              010 |                             0011
+                   sub_3 |                              011 |                             1001
+                     add |                              100 |                             0001
+                   check |                              101 |                             0101
+                   sub_p |                              110 |                             0111
+                    done |                              111 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'ffld1'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_state_next_reg' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:84]
+WARNING: [Synth 8-327] inferring latch for variable 'temp_result_reg' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:118]
+WARNING: [Synth 8-327] inferring latch for variable 's1_9_reg' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:77]
+WARNING: [Synth 8-327] inferring latch for variable 's2_9_reg' [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd:77]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 18    
++---Registers : 
+	                9 Bit    Registers := 1     
++---Muxes : 
+	   8 Input      9 Bit        Muxes := 2     
+	   8 Input      4 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ffld1 
+Detailed RTL Component Info : 
++---Registers : 
+	                9 Bit    Registers := 1     
++---Muxes : 
+	   8 Input      9 Bit        Muxes := 2     
+	   8 Input      4 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 2     
+Module whitebox2 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module whitebox 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module KS 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 9     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |     2|
+|4     |LUT3 |     2|
+|5     |LUT4 |    22|
+|6     |LUT5 |    10|
+|7     |LUT6 |    22|
+|8     |FDCE |     3|
+|9     |FDRE |     9|
+|10    |LD   |    38|
+|11    |IBUF |    19|
+|12    |OBUF |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   137|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 728.863 ; gain = 518.320
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 728.863 ; gain = 68.328
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 728.863 ; gain = 518.320
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 38 instances were transformed.
+  LD => LDCE: 38 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+62 Infos, 20 Warnings, 6 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 728.863 ; gain = 463.645
+INFO: [Common 17-1381] The checkpoint 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/synth_1/ffld1.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 728.863 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 18:19:57 2019...

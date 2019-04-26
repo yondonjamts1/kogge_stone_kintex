@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../rxtest.srcs/sources_1/new/txt.vhd"
+vhdl xil_defaultlib  "../../../rxtest.srcs/sources_1/new/rxt.vhd"
+vhdl xil_defaultlib  "../../../rxtest.srcs/sim_1/new/rtxtb.vhd"
+
+# Do not sort compile order
+nosort

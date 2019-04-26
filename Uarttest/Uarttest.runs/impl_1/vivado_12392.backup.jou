@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Tue Apr 02 00:00:33 2019
+# Process ID: 12392
+# Current directory: C:/Users/PC/F-4/Uarttest/Uarttest.runs/impl_1
+# Command line: vivado.exe -log UART_TX.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source UART_TX.tcl -notrace
+# Log file: C:/Users/PC/F-4/Uarttest/Uarttest.runs/impl_1/UART_TX.vdi
+# Journal file: C:/Users/PC/F-4/Uarttest/Uarttest.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source UART_TX.tcl -notrace

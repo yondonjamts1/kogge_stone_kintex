@@ -1,0 +1,13 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/PC/F-4/project_1.srcs/sources_1/new/adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity whitebox
+INFO: [VRFC 10-307] analyzing entity whitebox2
+INFO: [VRFC 10-307] analyzing entity blackcircle
+INFO: [VRFC 10-307] analyzing entity KS
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/PC/F-4/project_1.srcs/sources_1/imports/new/ffld1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ffld1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/PC/F-4/project_1.srcs/sim_1/new/testFF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fftester
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/PC/F-4/project_1.srcs/sim_1/new/tester.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tester
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/PC/F-4/project_1.srcs/sim_1/new/tester1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tester1
