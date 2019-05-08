@@ -2,13 +2,14 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
 # IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
-# Start of session at: Wed Apr 17 18:20:04 2019
-# Process ID: 10640
-# Current directory: C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3
+# Start of session at: Mon Apr 29 21:10:39 2019
+# Process ID: 4368
+# Current directory: D:/Github/kogge_stone_kintex/project_1.runs/impl_3
 # Command line: vivado.exe -log ffld1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ffld1.tcl -notrace
-# Log file: C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3/ffld1.vdi
-# Journal file: C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3\vivado.jou
+# Log file: D:/Github/kogge_stone_kintex/project_1.runs/impl_3/ffld1.vdi
+# Journal file: D:/Github/kogge_stone_kintex/project_1.runs/impl_3\vivado.jou
 #-----------------------------------------------------------
+Sourcing tcl script 'C:/Users/Mine/AppData/Roaming/Xilinx/Vivado/init.tcl'
 source ffld1.tcl -notrace
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
@@ -17,31 +18,31 @@ INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2016.4
 INFO: [Device 21-403] Loading part xc7k325tffg900-2
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc]
-WARNING: [Vivado 12-584] No ports matched 'clk_n'. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:7]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:7]
+Parsing XDC File [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk_n'. [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc:7]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'clk_p'. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:8]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:8]
+WARNING: [Vivado 12-584] No ports matched 'clk_p'. [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc:8]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'rdv'. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:22]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'rdv'. [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc:22]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'rst1'. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:29]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'rst1'. [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc:29]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'rx'. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:43]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'rx'. [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc:43]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'tx'. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:44]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'tx'. [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc:44]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.srcs/constrs_1/new/cons.xdc]
+Finished Parsing XDC File [D:/Github/kogge_stone_kintex/project_1.srcs/constrs_1/new/cons.xdc]
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-link_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 569.359 ; gain = 298.617
+link_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 569.449 ; gain = 298.082
 INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
@@ -53,7 +54,7 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.608 . Memory (MB): peak = 618.762 ; gain = 0.078
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.921 . Memory (MB): peak = 596.914 ; gain = 2.582
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Starting Logic Optimization Task
@@ -64,48 +65,48 @@ INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
 Phase 1 Retarget | Checksum: fdf5ed0c
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1142.488 ; gain = 0.004
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.222 . Memory (MB): peak = 1141.332 ; gain = 0.000
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-10] Eliminated 0 cells.
 Phase 2 Constant propagation | Checksum: fdf5ed0c
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1142.488 ; gain = 0.004
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.385 . Memory (MB): peak = 1141.332 ; gain = 0.000
 
 Phase 3 Sweep
 INFO: [Opt 31-12] Eliminated 0 unconnected nets.
 INFO: [Opt 31-11] Eliminated 0 unconnected cells.
 Phase 3 Sweep | Checksum: fdf5ed0c
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1142.488 ; gain = 0.004
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.469 . Memory (MB): peak = 1141.332 ; gain = 0.000
 
 Phase 4 BUFG optimization
 INFO: [Opt 31-12] Eliminated 0 unconnected nets.
 INFO: [Opt 31-11] Eliminated 0 unconnected cells.
 Phase 4 BUFG optimization | Checksum: fdf5ed0c
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1142.488 ; gain = 0.004
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.600 . Memory (MB): peak = 1141.332 ; gain = 0.000
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1142.488 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1141.332 ; gain = 0.000
 Ending Logic Optimization Task | Checksum: fdf5ed0c
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1142.488 ; gain = 0.004
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.623 . Memory (MB): peak = 1141.332 ; gain = 0.000
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
 Ending Power Optimization Task | Checksum: fdf5ed0c
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1142.488 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.200 . Memory (MB): peak = 1141.332 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 23 Infos, 6 Warnings, 6 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1142.488 ; gain = 573.129
-INFO: [Common 17-1381] The checkpoint 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3/ffld1_opt.dcp' has been generated.
+opt_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1141.332 ; gain = 571.883
+INFO: [Common 17-1381] The checkpoint 'D:/Github/kogge_stone_kintex/project_1.runs/impl_3/ffld1_opt.dcp' has been generated.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3/ffld1_drc_opted.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Github/kogge_stone_kintex/project_1.runs/impl_3/ffld1_drc_opted.rpt.
 INFO: [Chipscope 16-241] No debug cores found in the current design.
 Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
 or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
@@ -124,112 +125,113 @@ Starting Placer Task
 INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
 
 Phase 1 Placer Initialization
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1142.488 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1142.488 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1141.332 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1141.332 ; gain = 0.000
 
 Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 89b6cf7c
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 1.2 Build Placer Netlist Model
 Phase 1.2 Build Placer Netlist Model | Checksum: 12e78c150
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 1.3 Constrain Clocks/Macros
 Phase 1.3 Constrain Clocks/Macros | Checksum: 12e78c150
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1175.207 ; gain = 33.875
 Phase 1 Placer Initialization | Checksum: 12e78c150
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 2 Global Placement
 Phase 2 Global Placement | Checksum: 1124b3d29
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
 Phase 3.1 Commit Multi Column Macros | Checksum: 1124b3d29
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 3.2 Commit Most Macros & LUTRAMs
 Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 10bd4575e
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 3.3 Area Swap Optimization
 Phase 3.3 Area Swap Optimization | Checksum: 16f9d5c4b
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 3.4 Pipeline Register Optimization
 Phase 3.4 Pipeline Register Optimization | Checksum: 16f9d5c4b
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 3.5 Small Shape Detail Placement
 Phase 3.5 Small Shape Detail Placement | Checksum: c1d679de
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 3.6 Re-assign LUT pins
 Phase 3.6 Re-assign LUT pins | Checksum: c1d679de
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 3.7 Pipeline Register Optimization
 Phase 3.7 Pipeline Register Optimization | Checksum: c1d679de
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1175.207 ; gain = 33.875
 Phase 3 Detail Placement | Checksum: c1d679de
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 4 Post Placement Optimization and Clean-Up
 
 Phase 4.1 Post Commit Optimization
 Phase 4.1 Post Commit Optimization | Checksum: c1d679de
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 4.2 Post Placement Cleanup
 Phase 4.2 Post Placement Cleanup | Checksum: c1d679de
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 4.3 Placer Reporting
 Phase 4.3 Placer Reporting | Checksum: c1d679de
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1175.207 ; gain = 33.875
 
 Phase 4.4 Final Placement Cleanup
 Phase 4.4 Final Placement Cleanup | Checksum: c1d679de
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1175.207 ; gain = 33.875
 Phase 4 Post Placement Optimization and Clean-Up | Checksum: c1d679de
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1175.207 ; gain = 33.875
 Ending Placer Task | Checksum: 6631c66a
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1198.160 ; gain = 55.672
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1175.207 ; gain = 33.875
 INFO: [Common 17-83] Releasing license: Implementation
 37 Infos, 6 Warnings, 6 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
+place_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1175.207 ; gain = 33.875
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 1198.160 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3/ffld1_placed.dcp' has been generated.
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.140 . Memory (MB): peak = 1198.160 ; gain = 0.000
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 1198.160 ; gain = 0.000
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1198.160 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.219 . Memory (MB): peak = 1175.207 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Github/kogge_stone_kintex/project_1.runs/impl_3/ffld1_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.266 . Memory (MB): peak = 1175.207 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1175.207 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1175.207 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
@@ -246,7 +248,7 @@ Checksum: PlaceDB: 24d39a18 ConstDB: 0 ShapeSum: 415e2c52 RouteDB: 0
 Phase 1 Build RT Design
 Phase 1 Build RT Design | Checksum: 8eaeae6e
 
-Time (s): cpu = 00:00:35 ; elapsed = 00:00:23 . Memory (MB): peak = 1432.430 ; gain = 234.270
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:30 . Memory (MB): peak = 1432.977 ; gain = 257.770
 
 Phase 2 Router Initialization
 INFO: [Route 35-64] No timing constraints were detected. The router will operate in resource-optimization mode.
@@ -254,21 +256,21 @@ INFO: [Route 35-64] No timing constraints were detected. The router will operate
 Phase 2.1 Fix Topology Constraints
 Phase 2.1 Fix Topology Constraints | Checksum: 8eaeae6e
 
-Time (s): cpu = 00:00:35 ; elapsed = 00:00:23 . Memory (MB): peak = 1434.840 ; gain = 236.680
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:30 . Memory (MB): peak = 1435.406 ; gain = 260.199
 
 Phase 2.2 Pre Route Cleanup
 Phase 2.2 Pre Route Cleanup | Checksum: 8eaeae6e
 
-Time (s): cpu = 00:00:35 ; elapsed = 00:00:23 . Memory (MB): peak = 1434.840 ; gain = 236.680
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:30 . Memory (MB): peak = 1435.406 ; gain = 260.199
  Number of Nodes with overlaps = 0
 Phase 2 Router Initialization | Checksum: 134d5efbb
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:24 . Memory (MB): peak = 1478.137 ; gain = 279.977
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:32 . Memory (MB): peak = 1480.668 ; gain = 305.461
 
 Phase 3 Initial Routing
 Phase 3 Initial Routing | Checksum: 84f27905
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:25 . Memory (MB): peak = 1478.137 ; gain = 279.977
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:33 . Memory (MB): peak = 1480.668 ; gain = 305.461
 
 Phase 4 Rip-up And Reroute
 
@@ -277,25 +279,25 @@ Phase 4.1 Global Iteration 0
  Number of Nodes with overlaps = 0
 Phase 4.1 Global Iteration 0 | Checksum: 1764a39ab
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:25 . Memory (MB): peak = 1478.137 ; gain = 279.977
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:33 . Memory (MB): peak = 1480.668 ; gain = 305.461
 Phase 4 Rip-up And Reroute | Checksum: 1764a39ab
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:25 . Memory (MB): peak = 1478.137 ; gain = 279.977
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:33 . Memory (MB): peak = 1480.668 ; gain = 305.461
 
 Phase 5 Delay and Skew Optimization
 Phase 5 Delay and Skew Optimization | Checksum: 1764a39ab
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:25 . Memory (MB): peak = 1478.137 ; gain = 279.977
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:33 . Memory (MB): peak = 1480.668 ; gain = 305.461
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 Phase 6.1 Hold Fix Iter | Checksum: 1764a39ab
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:25 . Memory (MB): peak = 1478.137 ; gain = 279.977
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:33 . Memory (MB): peak = 1480.668 ; gain = 305.461
 Phase 6 Post Hold Fix | Checksum: 1764a39ab
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:25 . Memory (MB): peak = 1478.137 ; gain = 279.977
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:33 . Memory (MB): peak = 1480.668 ; gain = 305.461
 
 Phase 7 Route finalize
 
@@ -317,39 +319,39 @@ East Dir 1x1 Area, Max Cong = 26.4706%, No Congested Regions.
 West Dir 1x1 Area, Max Cong = 16.1765%, No Congested Regions.
 Phase 7 Route finalize | Checksum: 1764a39ab
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:25 . Memory (MB): peak = 1478.137 ; gain = 279.977
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:33 . Memory (MB): peak = 1480.668 ; gain = 305.461
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
 Phase 8 Verifying routed nets | Checksum: 1764a39ab
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:25 . Memory (MB): peak = 1478.137 ; gain = 279.977
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:33 . Memory (MB): peak = 1480.668 ; gain = 305.461
 
 Phase 9 Depositing Routes
 Phase 9 Depositing Routes | Checksum: 1c2d480e9
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:25 . Memory (MB): peak = 1478.137 ; gain = 279.977
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:33 . Memory (MB): peak = 1480.668 ; gain = 305.461
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:25 . Memory (MB): peak = 1478.137 ; gain = 279.977
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:33 . Memory (MB): peak = 1480.668 ; gain = 305.461
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
 46 Infos, 6 Warnings, 6 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:26 . Memory (MB): peak = 1478.137 ; gain = 279.977
+route_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:35 . Memory (MB): peak = 1480.668 ; gain = 305.461
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 1478.137 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3/ffld1_routed.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.128 . Memory (MB): peak = 1480.668 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Github/kogge_stone_kintex/project_1.runs/impl_3/ffld1_routed.dcp' has been generated.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3/ffld1_drc_routed.rpt.
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Github/kogge_stone_kintex/project_1.runs/impl_3/ffld1_drc_routed.rpt.
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
-INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3/ffld1_methodology_drc_routed.rpt.
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/Github/kogge_stone_kintex/project_1.runs/impl_3/ffld1_methodology_drc_routed.rpt.
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
@@ -363,43 +365,44 @@ Running Vector-less Activity Propagation...
 Finished Running Vector-less Activity Propagation
 56 Infos, 8 Warnings, 6 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 18:21:10 2019...
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 29 21:12:07 2019...
 #-----------------------------------------------------------
 # Vivado v2016.4 (64-bit)
 # SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
 # IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
-# Start of session at: Wed Apr 17 18:48:33 2019
-# Process ID: 6724
-# Current directory: C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3
+# Start of session at: Mon Apr 29 21:12:28 2019
+# Process ID: 11048
+# Current directory: D:/Github/kogge_stone_kintex/project_1.runs/impl_3
 # Command line: vivado.exe -log ffld1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ffld1.tcl -notrace
-# Log file: C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3/ffld1.vdi
-# Journal file: C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3\vivado.jou
+# Log file: D:/Github/kogge_stone_kintex/project_1.runs/impl_3/ffld1.vdi
+# Journal file: D:/Github/kogge_stone_kintex/project_1.runs/impl_3\vivado.jou
 #-----------------------------------------------------------
+Sourcing tcl script 'C:/Users/Mine/AppData/Roaming/Xilinx/Vivado/init.tcl'
 source ffld1.tcl -notrace
 Command: open_checkpoint ffld1_routed.dcp
 
 Starting open_checkpoint Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 215.094 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 216.074 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2016.4
 INFO: [Device 21-403] Loading part xc7k325tffg900-2
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3/.Xil/Vivado-6724-DESKTOP-DLRD6VO/dcp/ffld1.xdc]
-Finished Parsing XDC File [C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3/.Xil/Vivado-6724-DESKTOP-DLRD6VO/dcp/ffld1.xdc]
+Parsing XDC File [D:/Github/kogge_stone_kintex/project_1.runs/impl_3/.Xil/Vivado-11048-DESKTOP-VNBJ256/dcp/ffld1.xdc]
+Finished Parsing XDC File [D:/Github/kogge_stone_kintex/project_1.runs/impl_3/.Xil/Vivado-11048-DESKTOP-VNBJ256/dcp/ffld1.xdc]
 Reading XDEF placement.
 Reading placer database...
 Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 569.277 ; gain = 0.000
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.100 . Memory (MB): peak = 569.508 ; gain = 0.000
 Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 569.277 ; gain = 0.000
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.120 . Memory (MB): peak = 569.508 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Project 1-604] Checkpoint was created with Vivado v2016.4 (64-bit) build 1733598
-open_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 569.277 ; gain = 359.000
-source C:/Users/yondo/Documents/vivado_projects/F-4/set.tcl
+open_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 569.508 ; gain = 359.340
+source D:/Github/kogge_stone_kintex/set.tcl
 Command: write_bitstream -force -no_partial_bitfile ffld1.bit
 Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
@@ -431,10 +434,10 @@ Creating bitstream...
 Writing bitstream ./ffld1.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
-INFO: [Common 17-186] 'C:/Users/yondo/Documents/vivado_projects/F-4/project_1.runs/impl_3/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Wed Apr 17 18:49:26 2019. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-186] 'D:/Github/kogge_stone_kintex/project_1.runs/impl_3/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Mon Apr 29 21:13:33 2019. For additional details about this file, please refer to the WebTalk help file at F:/Vivado/Vivado/2016.4/doc/webtalk_introduction.html.
 INFO: [Common 17-83] Releasing license: Implementation
 15 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 1055.086 ; gain = 485.809
+write_bitstream: Time (s): cpu = 00:00:38 ; elapsed = 00:00:47 . Memory (MB): peak = 1054.887 ; gain = 485.379
 INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file ffld1.hwdef
-INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 18:49:27 2019...
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 29 21:13:34 2019...

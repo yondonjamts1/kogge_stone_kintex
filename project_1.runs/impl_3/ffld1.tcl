@@ -49,15 +49,16 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
+  set_param board.repoPaths {{<extracted path>/vivado-boards/new/board_files}}
   open_checkpoint ffld1_routed.dcp
-  set_property webtalk.parent_dir C:/Users/yondo/Documents/vivado_projects/F-4/project_1.cache/wt [current_project]
+  set_property webtalk.parent_dir D:/Github/kogge_stone_kintex/project_1.cache/wt [current_project]
   set src_rc [catch { 
-    puts "source C:/Users/yondo/Documents/vivado_projects/F-4/set.tcl"
-    source C:/Users/yondo/Documents/vivado_projects/F-4/set.tcl
+    puts "source D:/Github/kogge_stone_kintex/set.tcl"
+    source D:/Github/kogge_stone_kintex/set.tcl
   } _RESULT] 
   if {$src_rc} { 
     send_msg_id runtcl-1 error "$_RESULT"
-    send_msg_id runtcl-2 error "sourcing script C:/Users/yondo/Documents/vivado_projects/F-4/set.tcl failed"
+    send_msg_id runtcl-2 error "sourcing script D:/Github/kogge_stone_kintex/set.tcl failed"
     return -code error
   }
   catch { write_mem_info -force ffld1.mmi }

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Mon Apr 29 21:10:39 2019
+# Process ID: 4368
+# Current directory: D:/Github/kogge_stone_kintex/project_1.runs/impl_3
+# Command line: vivado.exe -log ffld1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ffld1.tcl -notrace
+# Log file: D:/Github/kogge_stone_kintex/project_1.runs/impl_3/ffld1.vdi
+# Journal file: D:/Github/kogge_stone_kintex/project_1.runs/impl_3\vivado.jou
+#-----------------------------------------------------------
+source ffld1.tcl -notrace

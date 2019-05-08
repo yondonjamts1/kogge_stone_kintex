@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun Apr 28 15:55:42 2019
+# Process ID: 10416
+# Current directory: D:/Github/kogge_stone_kintex
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14388 D:\Github\kogge_stone_kintex\project_1.xpr
+# Log file: D:/Github/kogge_stone_kintex/vivado.log
+# Journal file: D:/Github/kogge_stone_kintex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Github/kogge_stone_kintex/project_1.xpr

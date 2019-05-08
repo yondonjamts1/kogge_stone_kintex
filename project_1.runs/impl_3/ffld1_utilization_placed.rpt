@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
-| Date         : Wed Apr 17 18:20:40 2019
-| Host         : DESKTOP-DLRD6VO running 64-bit major release  (build 9200)
+| Date         : Mon Apr 29 21:11:20 2019
+| Host         : DESKTOP-VNBJ256 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file ffld1_utilization_placed.rpt -pb ffld1_utilization_placed.pb
 | Design       : ffld1
 | Device       : 7k325tffg900-2

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun Apr 28 15:55:42 2019
+# Process ID: 10416
+# Current directory: D:/Github/kogge_stone_kintex
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14388 D:\Github\kogge_stone_kintex\project_1.xpr
+# Log file: D:/Github/kogge_stone_kintex/vivado.log
+# Journal file: D:/Github/kogge_stone_kintex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Github/kogge_stone_kintex/project_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/yondo/Documents/vivado_projects/F-4' since last save.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:genesys2:part0:1.1. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/ProgramFiles/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 753.820 ; gain = 154.016
